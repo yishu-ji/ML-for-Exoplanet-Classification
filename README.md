@@ -1,2 +1,2 @@
-# ML-for-Exoplanet-Classification
-A ML project to classify exoplanets using Kepler dataset from NASA
+# Proposal
+This is the webpage for the proposal of group 51.
