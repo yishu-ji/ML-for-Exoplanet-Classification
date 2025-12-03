@@ -380,6 +380,7 @@
     </style>
 </head>
 <body>
+
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="navbar-container">
@@ -390,6 +391,9 @@
                 </li>
                 <li class="navbar-item">
                     <a href="midterm.html" class="navbar-link" id="nav-midterm">Midterm Report</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="final.html" class="navbar-link" id="nav-final">Final Report</a>
                 </li>
             </ul>
         </div>
@@ -588,6 +592,8 @@
                 document.getElementById('nav-proposal')?.classList.add('active');
             } else if (currentPage === 'midterm.html') {
                 document.getElementById('nav-midterm')?.classList.add('active');
+            } else if (currentPage === 'final.html') {
+                document.getElementById('nav-final')?.classList.add('active');
             }
         });
     </script>
